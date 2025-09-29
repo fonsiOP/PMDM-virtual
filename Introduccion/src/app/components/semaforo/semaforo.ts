@@ -8,6 +8,15 @@ import { Component } from '@angular/core';
 })
 export class Semaforo {
 
+  numero:number=0;
+
+
+
+  incrementar(){
+    this.numero++;
+  }
+
+
 
 
 
