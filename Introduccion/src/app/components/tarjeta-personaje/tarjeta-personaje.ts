@@ -1,4 +1,5 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
+import { Personaje } from '../../models/personaje';
 
 @Component({
   selector: 'app-tarjeta-personaje',
@@ -7,5 +8,7 @@ import { Component } from '@angular/core';
   styleUrl: './tarjeta-personaje.css'
 })
 export class TarjetaPersonaje {
+
+  @Input() personajeEnviado!:Personaje;
 
 }
